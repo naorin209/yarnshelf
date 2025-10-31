@@ -9,7 +9,7 @@ plugins {
 
 android {
     namespace = "jp.naorin.yarnshelf"
-    compileSdk = 34
+    compileSdk = 35
 
     // Google Play Console「この App Bundle にはネイティブ コードが含まれ、デバッグ シンボルがアップロードされていません。」対応
 //    ndkVersion = "27.0.12077973"
@@ -17,9 +17,9 @@ android {
     defaultConfig {
         applicationId = "jp.naorin.yarnshelf"
         minSdk = 24
-        targetSdk = 34
-        versionCode = 6
-        versionName = "1.0.0"
+        targetSdk = 35
+        versionCode = 9
+        versionName = "1.0.3"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
